@@ -1,0 +1,82 @@
+# Entornos virtuales y dependencias
+venv/
+.env/
+node_modules/
+*.lock
+yarn-error.log
+package-lock.json
+
+# Archivos temporales y compilados
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+__pycache__/
+*.log
+*.tmp
+*.swp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Archivos de Git
+.git/
+*.orig
+*.rej
+
+# Archivos de compilación y despliegue
+dist/
+build/
+out/
+target/
+coverage/
+*.coverage
+.jest/
+.cache/
+*.war
+*.jar
+*.apk
+*.ipa
+
+# Archivos de bases de datos y configuraciones sensibles
+*.sqlite3
+*.db
+*.sql
+
+# Archivos que suelen contener variables de entorno
+.env
+.env.*       # Archivos adicionales como .env.production, .env.local
+*.env
+*.env.*      # Variaciones del estándar .env.*
+secrets.json
+keys.json
+config.json
+config.yaml
+*.secret
+*.key
+*.pem
+*.crt
+*.p12
+*.cer
+
+# Configuración de Docker y Kubernetes
+docker-compose.override.yml
+*.dockerignore
+*.kubeconfig
+*.helmrelease
